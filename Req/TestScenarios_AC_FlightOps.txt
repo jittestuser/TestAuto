@@ -1,0 +1,44 @@
+Test Scenarios for AC_FlightOps
+
+1. Valid Flight Operation Entry
+   - Enter all required flight operation details with valid data.
+   - Submit the entry.
+   - Verify successful creation and correct data storage.
+
+2. Missing Required Fields
+   - Leave one or more required fields blank.
+   - Attempt to submit.
+   - Verify error messages for missing fields.
+
+3. Invalid Data Format
+   - Enter invalid formats (e.g., wrong date/time, flight number).
+   - Submit the entry.
+   - Verify rejection and appropriate error messages.
+
+4. Boundary Value Analysis
+   - Enter minimum and maximum allowed values for numeric fields (e.g., passenger count).
+   - Submit and verify system behavior.
+
+5. Duplicate Flight Entry
+   - Attempt to add a flight operation that already exists.
+   - Verify system detects and prevents duplicates.
+
+6. Successful Data Retrieval
+   - Search for a flight operation using valid criteria.
+   - Verify correct data is retrieved and displayed.
+
+7. Invalid Search Criteria
+   - Search using incomplete or incorrect criteria.
+   - Verify system handles errors gracefully.
+
+8. Update Flight Operation
+   - Edit an existing flight operation with valid data.
+   - Submit changes and verify update.
+
+9. Unauthorized Access
+   - Attempt to access or modify flight operations without proper authorization.
+   - Verify access is denied and proper messages are shown.
+
+10. System Error Handling
+    - Simulate system errors (e.g., database unavailable).
+    - Verify user-friendly error messages and system stability.
